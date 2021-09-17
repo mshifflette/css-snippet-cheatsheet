@@ -32,7 +32,6 @@ main {
     height: 400px;
     margin: 30px 30px 30px 30px;
     display: border-box;
-    user-select: all;
 }
 
 .card h2 {
@@ -77,6 +76,9 @@ main {
 #toomuchtext {
     margin-top: -10px;
     display: flex;
+}
+code {
+    user-select: all;
 }
 
 footer {
