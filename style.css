@@ -1,0 +1,85 @@
+body {
+    font-size: 16px;
+    line-height: 1.8;
+    color:rgb(152, 55, 197);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(49, 51, 51);
+}
+/* header styling */
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+header p {
+    color: white;
+}
+
+/* main content styling*/
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+}
+/* Card styling */
+
+.card {
+    border: dotted silver;
+    box-sizing: border-box;
+    width: 400px;
+    height: 400px;
+    margin: 30px 30px 30px 30px;
+    display: border-box;
+
+}
+
+.card h2 {
+    display: border-box;
+    border: solid;
+    border-radius: 7px;
+    border-color: silver;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: -30px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+    z-index: 1;
+    background-color: rgb(49, 51, 51);
+
+}
+.card p {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.card-content {
+    max-height: 70%;
+    background: linear-gradient(150deg,rgb(152, 55, 197),rgb(116, 53, 107));
+    border-radius: 7px;
+    margin: 10px;
+    color: white;
+}
+.card .card h1 {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+.card:hover,
+.card:hover .card h2 {
+    box-shadow: inset  0px 0px
+    rgba(232, 102, 236, 1), 0 0 15px
+    rgba(232, 102, 236, 1);
+}
+
+#toomuchtext {
+    margin-top: -10px;
+    display: flex;
+}
+
+footer {
+    text-align: center;
+}
+
