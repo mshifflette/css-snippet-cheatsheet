@@ -76,9 +76,11 @@ main {
 #toomuchtext {
     margin-top: -10px;
     display: flex;
+    font-size: 12px;
 }
 code {
     user-select: all;
+    margin-top: -20px;
 }
 
 footer {
