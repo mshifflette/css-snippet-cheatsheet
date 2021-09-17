@@ -32,7 +32,7 @@ main {
     height: 400px;
     margin: 30px 30px 30px 30px;
     display: border-box;
-
+    user-select: all;
 }
 
 .card h2 {
@@ -63,12 +63,12 @@ main {
     margin: 10px;
     color: white;
 }
-.card .card h1 {
+.card, .card h2 {
     border-radius: 8px;
     transition: all 0.5s ease-in-out;
 }
 .card:hover,
-.card:hover .card h2 {
+.card:hover h2 {
     box-shadow: inset  0px 0px
     rgba(232, 102, 236, 1), 0 0 15px
     rgba(232, 102, 236, 1);
